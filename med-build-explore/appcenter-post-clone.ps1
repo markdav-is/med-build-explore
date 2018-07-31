@@ -1,4 +1,4 @@
-﻿Get-Item Test.txt | Replace-FileString
+﻿Get-Item Config.cs | Replace-FileString
 
   -Pattern 'SecretParm'
 
