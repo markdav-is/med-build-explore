@@ -8,6 +8,6 @@ namespace med_build_explore
 {
     class Config
     {
-        internal static string SecretParm = "value from code";
+        internal static string SecretParm = "env_SAMPLESECRET";
     }
 }

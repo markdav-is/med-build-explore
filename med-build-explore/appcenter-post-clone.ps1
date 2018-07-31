@@ -1,5 +1,2 @@
-﻿Write-Host $env:APPCENTER_UWP_SOLUTION
-$filePath = ".\med-build-explore\med-build-explore\Config.cs"
-Write-Host $filepath
-Write-Host $env:SAMPLESECRET
-(Get-Content $filePath).Replace('SecretParm',$SAMPLESECRET) | Set-Content $filePath
+﻿$filePath = ".\med-build-explore\med-build-explore\Config.cs"
+(Get-Content $filePath).Replace('env_SAMPLESECRET',$env:SAMPLESECRET) | Set-Content $filePath
