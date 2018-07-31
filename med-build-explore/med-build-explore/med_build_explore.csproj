@@ -173,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
-    <None Include="appcenter-post-clone.ps1" />
     <None Include="med_build_explore_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
