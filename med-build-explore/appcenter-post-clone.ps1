@@ -2,4 +2,4 @@
 $filePath = ".\med-build-explore\med-build-explore\Config.cs"
 Write-Host $filepath
 Write-Host $env:SAMPLESECRET
-(Get-Content $filePath).Replace('SecretParm','$env:SAMPLESECRET') | Set-Content $filePath
+(Get-Content $filePath).Replace('SecretParm',$SAMPLESECRET) | Set-Content $filePath
