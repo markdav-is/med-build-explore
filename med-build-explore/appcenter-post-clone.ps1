@@ -1,2 +1,2 @@
 ﻿$filePath = ".\med-build-explore\Config.cs"
-(Get-Content $filePath).Replace('SecretParm',$env:SAMPLESECRET) | Set-Content $filePath
+(Get-Content '$filePath').Replace('SecretParm','$env:SAMPLESECRET') | Set-Content $filePath
