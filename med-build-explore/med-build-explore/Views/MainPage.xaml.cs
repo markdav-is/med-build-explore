@@ -26,6 +26,8 @@ namespace med_build_explore.Views
             OnPropertyChanged(propertyName);
         }
 
+        public string SecretParm = Config.SecretParm;
+
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

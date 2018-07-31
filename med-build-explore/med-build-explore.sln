@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "med_build_explore", "med-build-explore\med_build_explore.csproj", "{74633D87-D38F-4F6C-A9A7-AC3E149872A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppCenter", "AppCenter", "{ACC70772-DFF3-4E87-9D6E-8F6AD4B6E468}"
+	ProjectSection(SolutionItems) = preProject
+		appcenter-post-clone.ps1 = appcenter-post-clone.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
